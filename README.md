@@ -1,11 +1,10 @@
 A chat app
 =================================
 
-
-![this is image](appinfo/device.png)
-![this is image](appinfo/device2.png)
-![this is image](appinfo/device3.png)
-![this is image](appinfo/device4.png)
-![this is image](appinfo/device5.png)
-![this is image](appinfo/device6.png)
-![this is image](appinfo/device7.png)
+<img src='appinfo/device.png' width="70%"/>
+<img src='appinfo/device2.png' width="70%"/>
+<img src='appinfo/device3.png' width="70%"/>
+<img src='appinfo/device4.png' width="70%"/>
+<img src='appinfo/device5.png' width="70%"/>
+<img src='appinfo/device6.png' width="70%"/>
+<img src='appinfo/device7.png' width="70%"/>
