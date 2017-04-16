@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Emojicon">
+        <attr name="emojiconSize" format="dimension"/>
+        <attr name="emojiconTextStart" format="integer"/>
+        <attr name="emojiconTextLength" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="ChangeColorText">
+        <attr name="icon" />
+        <attr name="color"/>
+        <attr name="text" />
+        <attr name="textSize" />
+    </declare-styleable>
+
+    <declare-styleable name="FrameButton">
+        <attr name="firstText" />
+        <attr name="firstTextColor"/>
+        <attr name="firstTextSize" />
+        <attr name="firstBackGround" />
+        <attr name="secondText" />
+        <attr name="secondTextColor" />
+        <attr name="secondTextSize" />
+        <attr name="secondBackGround" />
+    </declare-styleable>
+
+    <attr name="firstText" format="string"/>
+    <attr name="firstTextColor" format="color"/>
+    <attr name="firstTextSize" format="dimension"/>
+    <attr name="firstBackGround" format="reference"/>
+
+    <attr name="secondText" format="string"/>
+    <attr name="secondTextColor" format="color"/>
+    <attr name="secondTextSize" format="dimension"/>
+    <attr name="secondBackGround" format="reference"/>
+    <attr name="text" format="string"/>
+    <attr name="textSize" format="dimension"/>
+</resources>

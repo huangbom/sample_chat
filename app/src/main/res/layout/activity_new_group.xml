@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <EditText
+        android:id="@+id/edit_group_name"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/group_name"
+        android:paddingLeft="5dp"
+        android:singleLine="true"
+        android:textSize="18sp" />
+        <!--android:background="@drawable/button_normal_shape"-->
+
+    <EditText
+        android:id="@+id/edit_group_introduction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_normal_shape"
+        android:gravity="top"
+        android:hint="@string/Group_chat_profile"
+        android:lines="5"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:textSize="18sp" />
+    
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+       android:layout_height="39dp"
+        android:layout_marginBottom="10dp"
+        >
+        <TextView 
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Whether_the_public"
+            android:layout_gravity="center_vertical"
+            android:textSize="18sp"
+            android:textColor="?attr/colorPrimary"
+            android:layout_weight="1"
+            />
+        
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/cb_public"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:layout_gravity="center_vertical"
+            />
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/ll_open_invite"
+        android:layout_width="match_parent"
+       android:layout_height="39dp"
+        android:layout_marginBottom="10dp"
+        >
+        <TextView 
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Open_group_members_invited"
+            android:textColor="?attr/colorPrimary"
+            android:layout_gravity="center_vertical"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            />
+        
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/cb_member_inviter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:layout_gravity="center_vertical"
+            />
+        
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_new_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        />
+
+</LinearLayout>

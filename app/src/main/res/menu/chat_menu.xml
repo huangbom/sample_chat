@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:id="@+id/group1">
+
+        <item android:id="@+id/container_to_group"
+              android:title="@string/menu_detail"
+              app:showAsAction="always"
+              android:icon="@drawable/to_group_details_normal"
+            />
+    </group>
+
+    <group android:id="@+id/group2">
+
+        <item android:id="@+id/container_remove"
+              android:title="@string/clear_records"
+              android:icon="@mipmap/abc_ic_clear_mtrl_alpha"
+              app:showAsAction="always"
+            />
+    </group>
+</menu>

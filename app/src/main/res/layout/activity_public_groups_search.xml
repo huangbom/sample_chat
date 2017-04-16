@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_bg"
+    android:orientation="vertical" >
+
+
+    <EditText
+        android:id="@+id/et_search_id"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:layout_margin="8dp"
+        android:hint="@string/group_id"
+        android:paddingLeft="5dp"
+        android:singleLine="true"
+        android:textColorHint="#b3b3b3"
+        android:textSize="18sp" />
+
+    <RelativeLayout
+        android:id="@+id/rl_searched_group"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:onClick="enterToDetails"
+        android:background="@drawable/mm_listitem"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/avatar"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="11dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/group_icon" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="18dp"
+            android:layout_toRightOf="@id/avatar"
+            android:textColor="#0F0F0F"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+</LinearLayout>
